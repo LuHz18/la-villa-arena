@@ -1,0 +1,58 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f0f8ff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background: #0077b6;
+  color: white;
+  padding: 20px;
+  position: relative;
+}
+
+.mascote, .escudo {
+  height: 100px;
+  margin: 10px;
+}
+
+.form-section {
+  background: #e0f7fa;
+  padding: 30px;
+  border-top: 5px solid #0077b6;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input, select, button {
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #0077b6;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #005f8a;
+}
+
+footer {
+  background: #003f5c;
+  color: white;
+  padding: 15px;
+}

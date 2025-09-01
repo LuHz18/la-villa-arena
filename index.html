@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>La Villa Arena</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="assets/mascote.png" alt="Mascote La Villa" class="mascote">
+    <h1>Bem-vindo à Arena La Villa</h1>
+    <img src="assets/escudo.png" alt="Escudo La Villa" class="escudo">
+    <p>Agende seu horário para futevôlei, vôlei ou beach tennis!</p>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h2>Agende seu horário</h2>
+      <form id="agendamentoForm">
+        <input type="text" id="nome" placeholder="Seu nome" required>
+        <input type="tel" id="telefone" placeholder="Seu telefone (WhatsApp)" required>
+        <select id="esporte" required>
+          <option value="">Escolha o esporte</option>
+          <option value="futevolei">Futevôlei</option>
+          <option value="volei">Vôlei</option>
+          <option value="beach tennis">Beach Tennis</option>
+        </select>
+        <input type="date" id="data" required>
+        <input type="time" id="hora" required>
+        <button type="submit">Agendar</button>
+      </form>
+      <div id="mensagem"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Arena La Villa | Desenvolvido com 💙 na praia</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
